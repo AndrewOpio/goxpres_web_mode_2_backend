@@ -58,7 +58,7 @@ function capitalize($stg){
 
 function initials($str) 
 {
-		$str=trim($str);
+	$str=trim($str);
     $ret = "";
     foreach (explode(' ', $str) as $word)
 	if(isset($word[0])){
